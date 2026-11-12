@@ -136,93 +136,159 @@
     <!-- Portafolio Section -->
     <section id="portafolio" class="py-24 bg-cinema-900 border-t border-white/5 relative z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- SECCIÓN 1: CORTOMETRAJES & PELÍCULAS -->
             <div class="text-center mb-16">
-                <h2 class="font-heading text-4xl md:text-5xl font-bold uppercase tracking-widest mb-4">Proyectos Destacados</h2>
+                <h2 class="font-heading text-4xl md:text-5xl font-bold uppercase tracking-widest mb-4">Cortometrajes & Películas</h2>
                 <div class="w-24 h-1 bg-cinema-accent mx-auto"></div>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- GRID DE CORTOMETRAJES (16:9) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-32">
                 
                 <!-- PROYECTO 1: LA EDAD DEL LUTO -->
-                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-800 transition-transform duration-300 hover:scale-[1.02]">
-                    <div class="relative w-full" style="padding-top: 56.25%;">
-                        <iframe 
-                            class="absolute top-0 left-0 w-full h-full" 
-                            src="https://www.youtube.com/embed/UK4hOBlArUw?si=xHCPl0jsSdlCBbr0" 
-                            title="La Edad del Luto - Teaser" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            referrerpolicy="strict-origin-when-cross-origin" 
-                            allowfullscreen>
-                        </iframe>
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-video bg-black">
+                        <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/UK4hOBlArUw?si=xHCPl0jsSdlCBbr0" title="La Edad del Luto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div class="p-6">
-                        <div class="text-yellow-600 text-sm font-bold tracking-widest uppercase mb-2">Cortometraje • 2025</div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Cortometraje • 2025</div>
                         <h3 class="text-2xl font-bold text-white mb-2">La Edad del Luto</h3>
-                        <p class="text-gray-400 mb-4">Dirección de fotografía y segundo montajista. Un acercamiento visual íntimo bajo la dirección de Daniela Tacuri.</p>
-                        <div class="flex flex-wrap gap-2">
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Dirección de fotografía y segundo montajista. Un acercamiento visual íntimo bajo la dirección de Daniela Tacuri.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Fotografía</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Montaje</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- PROYECTO 2: ENTRECRUCES Y CRUZADOS -->
-                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-800 transition-transform duration-300 hover:scale-[1.02]">
-                    <div class="relative w-full" style="padding-top: 56.25%;">
-                        <iframe 
-                            class="absolute top-0 left-0 w-full h-full" 
-                            src="https://www.youtube.com/embed/1fdzMSN5PQU?si=GQKUEWGUDfwkLDZP" 
-                            title="Entrecruces y Cruzados" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            referrerpolicy="strict-origin-when-cross-origin" 
-                            allowfullscreen>
-                        </iframe>
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-video bg-black">
+                        <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/1fdzMSN5PQU?si=GQKUEWGUDfwkLDZP" title="Entrecruces y Cruzados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div class="p-6">
-                        <div class="text-yellow-600 text-sm font-bold tracking-widest uppercase mb-2">Cortometraje • 2025</div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Cortometraje • 2025</div>
                         <h3 class="text-2xl font-bold text-white mb-2">Entrecruces y Cruzados</h3>
-                        <p class="text-gray-400 mb-4">Dirección de fotografía, corrección de color y etalonaje. Exploración visual de contrastes bajo la dirección de Andrés Mocha.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">Alto Contraste</span>
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">DaVinci Resolve</span>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Dirección de fotografía, corrección de color y etalonaje. Exploración visual de contrastes bajo la dirección de Andrés Mocha.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Alto Contraste</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Color Grading</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- PROYECTO 3: BODEGÓN SERRANO -->
-                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-800 transition-transform duration-300 hover:scale-[1.02]">
-                    <div class="aspect-w-16 aspect-h-9 bg-gray-800 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-video bg-black flex items-center justify-center">
+                        <!-- Placeholder Icon -->
+                        <svg class="w-12 h-12 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
                     </div>
-                    <div class="p-6">
-                        <div class="text-yellow-600 text-sm font-bold tracking-widest uppercase mb-2">Documental • 2025</div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Documental • 2025</div>
                         <h3 class="text-2xl font-bold text-white mb-2">Bodegón Serrano</h3>
-                        <p class="text-gray-400 mb-4">Operador y asistente de cámara en este largometraje documental dirigido por Galo Torres y Geovanny Narváez.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">Cámara</span>
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">Asistencia</span>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Operador y asistente de cámara en este largometraje documental dirigido por Galo Torres y Geovanny Narváez.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Cámara</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Asistencia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 2: COMERCIALES & MARCAS -->
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-4xl md:text-5xl font-bold uppercase tracking-widest mb-4">Comerciales & Marcas</h2>
+                <div class="w-24 h-1 bg-cinema-accent mx-auto"></div>
+            </div>
+
+            <!-- GRID DE COMERCIALES -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- COMERCIAL 1: ALCLINIDENT (Vertical 9:16) -->
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-[9/16] bg-black">
+                        <!-- Reemplaza "alclinident.mp4" con el nombre real de tu archivo -->
+                        <video class="absolute top-0 left-0 w-full h-full object-cover" controls loop muted playsinline poster="https://placehold.co/720x1280/111/fff?text=Alclinident+Reel">
+                            <source src="alclinident.mp4" type="video/mp4">
+                            Tu navegador no soporta el formato de video.
+                        </video>
+                    </div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Reel Comercial</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Alclinident</h3>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Producción de contenido vertical dinámico para redes sociales.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Grabación</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Edición</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- PROYECTO 4: BUBO AGENCIA CREATIVA -->
-                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-800 transition-transform duration-300 hover:scale-[1.02]">
-                    <div class="aspect-w-16 aspect-h-9 bg-gray-800 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                <!-- COMERCIAL 2: DUEBELLE (Vertical 9:16) -->
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-[9/16] bg-black">
+                        <!-- Reemplaza "duebelle.mp4" con el nombre real de tu archivo -->
+                        <video class="absolute top-0 left-0 w-full h-full object-cover" controls loop muted playsinline poster="https://placehold.co/720x1280/111/fff?text=DueBelle+Reel">
+                            <source src="duebelle.mp4" type="video/mp4">
+                            Tu navegador no soporta el formato de video.
+                        </video>
                     </div>
-                    <div class="p-6">
-                        <div class="text-yellow-600 text-sm font-bold tracking-widest uppercase mb-2">Dirección Visual • 2026</div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Bubo - Reels Comerciales</h3>
-                        <p class="text-gray-400 mb-4">Dirección, producción y postproducción de reels promocionales y fotografía gastronómica para marcas locales.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">Branding</span>
-                            <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">Comercial</span>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Reel Comercial</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">DueBelle</h3>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Postproducción y montaje de contenido promocional vertical.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Edición</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COMERCIAL 3: LUMA RESTAURANT (Vertical 9:16) -->
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative w-full aspect-[9/16] bg-black">
+                        <!-- Reemplaza "luma.mp4" con el nombre real de tu archivo -->
+                        <video class="absolute top-0 left-0 w-full h-full object-cover" controls loop muted playsinline poster="https://placehold.co/720x1280/111/fff?text=Luma+Restaurant+Reel">
+                            <source src="luma.mp4" type="video/mp4">
+                            Tu navegador no soporta el formato de video.
+                        </video>
+                    </div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Reel Comercial</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Luma Restaurant</h3>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Dirección visual, grabación y edición de videografía gastronómica.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Grabación</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Edición</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COMERCIAL 4: ALEA RESTAURANT (Horizontal 16:9) -->
+                <!-- Utiliza un col-span más amplio en pantallas grandes para destacar el formato horizontal -->
+                <div class="bg-cinema-800 rounded-xl overflow-hidden shadow-2xl border border-white/5 transition-transform duration-300 hover:-translate-y-2 flex flex-col md:col-span-2 lg:col-span-3 max-w-5xl mx-auto w-full">
+                    <div class="relative w-full aspect-video bg-black">
+                        <!-- Reemplaza "alea.mp4" con el nombre real de tu archivo -->
+                        <video class="absolute top-0 left-0 w-full h-full object-cover" controls loop muted playsinline poster="https://placehold.co/1280x720/111/fff?text=Alea+Restaurant+Video">
+                            <source src="alea.mp4" type="video/mp4">
+                            Tu navegador no soporta el formato de video.
+                        </video>
+                    </div>
+                    <div class="p-6 md:p-8 flex-grow flex flex-col">
+                        <div class="text-cinema-accent text-sm font-bold tracking-widest uppercase mb-2">Video Comercial</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Alea Restaurant</h3>
+                        <p class="text-zinc-400 mb-4 flex-grow text-sm leading-relaxed">Videografía gastronómica en formato panorámico. Captura de la atmósfera y la experiencia culinaria.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Grabación</span>
+                            <span class="px-3 py-1 bg-black text-zinc-300 text-xs rounded-full border border-white/10">Edición</span>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <!-- FIN GRID DE PROYECTOS -->
+        </div>
+    </section>
+
     <!-- Contacto Section -->
     <section id="contacto" class="py-24 bg-black relative z-20 border-t border-white/10">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
